@@ -21,11 +21,29 @@ body {
   padding: 40px;
   border-radius: 10px;
   box-shadow: 2px 2px 10px lightgray;
+  text-align: center;
+  min-height: 30%;
+}
+
+button {
+  height: 60px;
+  padding: 15px;
+  border: none;
+  font-size: 24px;
+  color: white;
+  background-color: rgb(18, 55, 224);
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.158);
+}
+
+.display {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-button {
-  padding: 15px;
+input {
+  border: none;
+  background-color: #ebebeb;
+  font-size: 24px;
 }
